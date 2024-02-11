@@ -1,0 +1,61 @@
+/* Reset some default form styles */
+body,form, input, label {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Apply a background color to the body for better visibility */
+  body {
+    background-color: #45858d;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the form container */
+  form {
+    max-width: 400px;
+    margin: 50px auto;
+    background-color: #575050;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style form elements */
+  label {
+    display: block;
+    margin-bottom: 8%;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="password"],
+  input[type="number"],
+  textarea {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 16px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  /* Style the submit button */
+  input[type="submit"] {
+    background-color: #19a7b1;
+    color: #fff;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  /* Add some spacing between form elements */
+  form > * {
+    margin-bottom: 16px;
+  }
+  
